@@ -134,3 +134,49 @@ table {
   border-spacing: 0;
 }
 /* Your Code Goes Here */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  Background: #FFFFFF;
+  Color: #222222;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-weight: bold;
+  font-size: 2.8rem;
+  color: #222222;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container .jumbo-container {
+  position: relative;
+}
+.container .jumbo-container .jumbotron-text {
+  font-weight: bold;
+  font-size: 6.4rem;
+  line-height: 75px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 20rem;
+  left: 5rem;
+}
