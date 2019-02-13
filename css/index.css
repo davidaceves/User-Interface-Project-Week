@@ -147,7 +147,9 @@ body {
   Color: #222222;
 }
 h1 {
-  font-size: 4rem;
+  font-weight: bold;
+  font-size: 2.4rem;
+  color: #FFFFFF;
 }
 h2 {
   font-weight: bold;
@@ -155,18 +157,49 @@ h2 {
   color: #222222;
 }
 p {
-  line-height: 1.5;
+  font-weight: Regular;
   font-size: 1.6rem;
-  padding-bottom: 10px;
+  line-height: 2.4rem;
 }
 img {
   max-width: 100%;
   height: auto;
 }
+a {
+  text-decoration: none;
+}
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: gray;
+  height: 40px;
+}
+.nav-bar .logo {
+  padding-left: 5%;
+  width: 80%;
+}
+.nav-bar .hamburger {
+  height: 20px;
+}
+.nav-bar nav {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 4.8rem;
+  line-Height: 85px;
+}
+.nav-bar nav a {
+  color: #FFFFFF;
+  display: none;
+}
+.nav-bar nav a:hover {
+  color: #222222;
 }
 .container .jumbo-container {
   position: relative;
@@ -177,6 +210,30 @@ img {
   line-height: 75px;
   color: #FFFFFF;
   position: absolute;
-  top: 20rem;
-  left: 5rem;
+  top: 50%;
+  left: 10%;
+}
+.container .small-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.container .small-content .box-1,
+.container .small-content .box-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  width: 50%;
+}
+.container .small-content .box-1 p,
+.container .small-content .box-2 p {
+  margin-top: 10px;
+}
+.container .small-content .box-1 button,
+.container .small-content .box-2 button {
+  width: 35%;
+  height: 40px;
+  margin-top: 10px;
+  background: #FFFFFF;
+  border: 1px solid #222222;
 }

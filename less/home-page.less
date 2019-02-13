@@ -7,10 +7,35 @@
             font-weight: bold;
             font-size: 6.4rem;
             line-height: 75px;
-            color: #FFFFFF;
+            color: @jumbo-color;
             position: absolute;
-            top: 20rem;
-            left: 5rem;
+            top: 50%;
+            left: 10%;
+        }
+    }
+
+    .small-content {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+
+        .box-1, .box-2 {
+            display: flex;
+            flex-direction: column;
+            padding: 5%;
+            width: 50%;
+
+            p {
+                margin-top: 10px;
+            }
+
+            button {
+                width: 35%;
+                height: 40px;
+                margin-top: 10px;
+                background: @button-bg;
+                border: 1px solid @button-border;
+            }
         }
     }
   
