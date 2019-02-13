@@ -213,27 +213,37 @@ a {
   top: 50%;
   left: 10%;
 }
-.container .small-content {
+.container .small-content-1,
+.container .small-content-2 {
   display: flex;
   justify-content: center;
   margin-top: 40px;
 }
-.container .small-content .box-1,
-.container .small-content .box-2 {
+.container .small-content-1 .box-1,
+.container .small-content-2 .box-1,
+.container .small-content-1 .box-2,
+.container .small-content-2 .box-2 {
   display: flex;
   flex-direction: column;
   padding: 5%;
   width: 50%;
 }
-.container .small-content .box-1 p,
-.container .small-content .box-2 p {
+.container .small-content-1 .box-1 p,
+.container .small-content-2 .box-1 p,
+.container .small-content-1 .box-2 p,
+.container .small-content-2 .box-2 p {
   margin-top: 10px;
 }
-.container .small-content .box-1 button,
-.container .small-content .box-2 button {
+.container .small-content-1 .box-1 button,
+.container .small-content-2 .box-1 button,
+.container .small-content-1 .box-2 button,
+.container .small-content-2 .box-2 button {
   width: 35%;
   height: 40px;
   margin-top: 10px;
   background: #FFFFFF;
   border: 1px solid #222222;
+}
+.container .small-content-2 {
+  flex-direction: row-reverse;
 }
