@@ -217,6 +217,7 @@ a {
 .container .small-content-2 {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 40px;
 }
 .container .small-content-1 .box-1,
@@ -225,13 +226,13 @@ a {
 .container .small-content-2 .box-2 {
   display: flex;
   flex-direction: column;
-  padding: 5%;
   width: 50%;
 }
 .container .small-content-1 .box-1 p,
 .container .small-content-2 .box-1 p,
 .container .small-content-1 .box-2 p,
 .container .small-content-2 .box-2 p {
+  width: 85%;
   margin-top: 10px;
 }
 .container .small-content-1 .box-1 button,
@@ -240,10 +241,28 @@ a {
 .container .small-content-2 .box-2 button {
   width: 35%;
   height: 40px;
-  margin-top: 10px;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #222222;
   border: 1px solid #222222;
+  cursor: pointer;
+  font-size: 1.6rem;
+  margin-top: 10px;
 }
 .container .small-content-2 {
   flex-direction: row-reverse;
+}
+.container .small-content-2 .box-2 {
+  padding-left: 8.5%;
+}
+.container .big-content-section .h2-recent-projects {
+  margin: 5% 0;
+}
+.container .big-content-section .h2-graybox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 70px;
+  background: #D8D8D8;
+  border: 1px solid white;
 }

@@ -15,32 +15,49 @@
     }
 
     .small-content-1, .small-content-2 {
-        display: flex;
-        justify-content: center;
+        .center();
         margin-top: 40px;
 
         .box-1, .box-2 {
             display: flex;
             flex-direction: column;
-            padding: 5%;
             width: 50%;
 
             p {
+                width: 85%;
                 margin-top: 10px;
             }
 
             button {
-                width: 35%;
-                height: 40px;
+                .button-creator(35%, 40px, @button-bg, @font-color, 1.6rem);
                 margin-top: 10px;
-                background: @button-bg;
-                border: 1px solid @button-border;
             }
         }
     }
 
     .small-content-2 {
         flex-direction: row-reverse;
+
+        .box-2 {
+            padding-left: 8.5%;
+        }
+
+    }
+
+    .big-content-section {
+
+        .h2-recent-projects {
+            margin: 5% 0;
+        }
+
+        .h2-graybox {
+            .center();
+            width: 30%;
+            height: 70px;
+            background: @box-background;
+            border: 1px solid white;
+
+        }
     }
   
 }
