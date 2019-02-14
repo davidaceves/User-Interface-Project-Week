@@ -202,7 +202,58 @@ a {
   color: #222222;
 }
 footer {
+  height: 270px;
   background: #828282;
+  color: #FFFFFF;
+}
+footer .main-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+footer .main-footer h2 {
+  font-size: 2rem;
+  color: #FFFFFF;
+  margin-bottom: 5%;
+}
+footer .main-footer .florida,
+footer .main-footer .newyork,
+footer .main-footer .cali {
+  margin-left: 5%;
+}
+footer .main-footer .florida h3,
+footer .main-footer .newyork h3,
+footer .main-footer .cali h3 {
+  font-size: 2rem;
+}
+footer .main-footer .florida p,
+footer .main-footer .newyork p,
+footer .main-footer .cali p {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+footer .main-footer .email-box {
+  margin-right: 5%;
+}
+footer .main-footer .email-box form input {
+  height: 35px;
+  width: 89%;
+  padding-left: 5px;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+footer .main-footer .email-box p {
+  font-size: 1.2rem;
+}
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .copyright p {
+  font-size: 1.2rem;
+  font-weight: normal;
 }
 .container .jumbo-container {
   position: relative;

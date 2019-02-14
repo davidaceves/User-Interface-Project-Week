@@ -1,3 +1,54 @@
 footer {
+    height: 270px;
     background: @footer-bg;
+    color: @footer-color;
+
+    .main-footer {
+        .center();
+        padding: 5%;
+
+        h2 {
+            font-size: 2rem;
+            color: @footer-color;
+            margin-bottom: 5%;
+        }
+
+        .florida, .newyork, .cali {
+            margin-left: 5%;
+
+            h3 {
+                font-size: 2rem;
+            }
+            
+            p {
+                font-size: 1.2rem;
+                font-weight: normal;
+            }
+        }
+
+        .email-box {
+            margin-right: 5%;
+
+            form input{
+                height: 35px;
+                width: 89%;
+                padding-left: 5px;
+                border-radius: 5px;
+                margin-bottom: 5%;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .copyright {
+        .center();
+
+        p {
+            font-size: 1.2rem;
+            font-weight: normal;
+        }
+    }
 }
