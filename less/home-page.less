@@ -52,11 +52,52 @@
 
         .h2-graybox {
             .center();
+            font-weight: normal;
             width: 30%;
             height: 70px;
             background: @box-background;
             border: 1px solid white;
 
+        }
+
+        .big-content-1, .big-content-2, .big-content-3 {
+            position: relative;
+        }
+
+        .p-content {
+            .center();
+            flex-direction: column;
+            margin: 5% 0;
+            p {
+                margin: 1% 0;
+                width: 40%;
+            }
+        }
+    }
+
+    .big-content-1 {
+
+        .h2-graybox {
+            position: absolute;
+            left: 55.5%;
+            bottom: 55%;
+        }
+    }
+
+    .big-content-2 {
+
+        .h2-graybox {
+            position: absolute;
+            bottom: 55%;
+        }
+    }
+
+    .big-content-3 {
+
+        .h2-graybox {
+            position: absolute;
+            left: 55.5%;
+            bottom: 55%;
         }
     }
   

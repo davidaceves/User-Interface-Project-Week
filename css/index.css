@@ -261,8 +261,39 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: normal;
   width: 30%;
   height: 70px;
   background: #D8D8D8;
   border: 1px solid white;
+}
+.container .big-content-section .big-content-1,
+.container .big-content-section .big-content-2,
+.container .big-content-section .big-content-3 {
+  position: relative;
+}
+.container .big-content-section .p-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5% 0;
+}
+.container .big-content-section .p-content p {
+  margin: 1% 0;
+  width: 40%;
+}
+.container .big-content-1 .h2-graybox {
+  position: absolute;
+  left: 55.5%;
+  bottom: 55%;
+}
+.container .big-content-2 .h2-graybox {
+  position: absolute;
+  bottom: 55%;
+}
+.container .big-content-3 .h2-graybox {
+  position: absolute;
+  left: 55.5%;
+  bottom: 55%;
 }
