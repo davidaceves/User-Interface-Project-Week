@@ -207,6 +207,16 @@ a {
 .nav-bar nav a:hover {
   color: #222222;
 }
+.nav-toggle {
+  height: 100%;
+  width: 1000px;
+  opacity: 0.5;
+  opacity: 0.75;
+  position: fixed;
+  z-index: 1;
+  align-items: flex-start;
+  padding-top: 1%;
+}
 footer {
   height: 270px;
   background: #828282;
