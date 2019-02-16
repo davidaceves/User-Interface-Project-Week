@@ -13,6 +13,7 @@ let logo = document.querySelector('.logo');
 hamburger.addEventListener('click', () => {
     if (!navBar.classList.contains('nav-toggle')) {
         navBar.classList.add('nav-toggle');
+        navCon.style.display = 'unset';
         hamburger.style.display = 'none';
         hamburgerClose.style.display = 'unset';
     } 
@@ -21,6 +22,7 @@ hamburger.addEventListener('click', () => {
 hamburgerClose.addEventListener('click', () => {
     if (navBar.classList.contains('nav-toggle')) {
         navBar.classList.remove('nav-toggle');
+        navCon.style.display = 'none';
         hamburger.style.display = 'unset';
         hamburgerClose.style.display = 'none';
     } 
