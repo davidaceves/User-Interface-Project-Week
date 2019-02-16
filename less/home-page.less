@@ -27,13 +27,25 @@
 
         @media @mobile {
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        img {
+            @media @mobile {
+                margin-bottom: 5%;
+            }
         }
 
         .box-1, .box-2 {
             display: flex;
             flex-direction: column;
             width: 50%;
+
+    
+            @media @mobile {
+                order: 1;
+            }
+
 
             @media @mobile {
                 width: 100%;
@@ -48,6 +60,11 @@
             button {
                 .button-creator(35%, 40px, @button-bg, @font-color, 1.6rem);
                 margin-top: 10px;
+
+                @media @mobile {
+                    width: 87%;
+                    margin: 5% 0;
+                }
             }
         }
     }
@@ -55,8 +72,16 @@
     .small-content-2 {
         flex-direction: row-reverse;
 
+        @media @mobile {
+            flex-direction: column;
+        }
+
         .box-2 {
             padding-left: 8.5%;
+
+            @media @mobile {
+                padding-left: 0;
+            }
         }
 
     }
@@ -65,6 +90,10 @@
 
         .h2-recent-projects {
             margin: 5% 0;
+
+            @media @mobile {
+                margin-left: 5%;
+            }
         }
 
         .h2-graybox {
@@ -75,6 +104,13 @@
             background: @box-background;
             border: 1px solid white;
 
+            @media @mobile {
+                width: 90%;
+                height: 100px;
+                left: unset;
+                bottom: 65%;
+            }
+
         }
 
         .big-content-1, .big-content-2, .big-content-3 {
@@ -82,16 +118,24 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-
         }
 
         .p-content {
             .center();
             flex-direction: column;
             margin: 5% 0;
+
+            @media @mobile {
+                margin-top: 20%;
+             }
+
             p {
                 margin: 1% 0;
                 width: 40%;
+
+                @media @mobile {
+                   width: 85%;
+                }
             }
         }
     }
@@ -102,6 +146,11 @@
             position: absolute;
             left: 62.7%;
             bottom: 58%;
+
+            @media @mobile {
+                left: unset;
+                bottom: 50%;
+            }
         }
     }
 
@@ -111,6 +160,11 @@
             position: absolute;
             left: 7.2%;
             bottom: 58%;
+
+            @media @mobile {
+                left: unset;
+                bottom: 50%;
+            }
         }
     }
 
@@ -120,6 +174,11 @@
             position: absolute;
             left: 62.7%;
             bottom: 58%;
+
+            @media @mobile {
+                left: unset;
+                bottom: 50%;
+            }
         }
     }
   

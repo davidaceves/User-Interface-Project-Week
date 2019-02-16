@@ -3,9 +3,22 @@ footer {
     background: @footer-bg;
     color: @footer-color;
 
+    @media @mobile {
+        width: 68%;
+        height: auto;
+        margin: 0 auto;
+        
+     }
+
     .main-footer {
-        .center();
+        // .center();
         padding: 5%;
+
+        @media @mobile {
+            display: flex;
+            flex-direction: column;
+
+         }
 
         h2 {
             font-size: 2rem;
@@ -15,6 +28,10 @@ footer {
 
         .florida, .newyork, .cali {
             margin-left: 5%;
+
+            @media @mobile {
+                margin: 5% 0;
+            }
 
             h3 {
                 font-size: 2rem;
@@ -28,6 +45,11 @@ footer {
 
         .email-box {
             margin-right: 5%;
+
+            @media @mobile {
+                margin-right: 0;
+                align-self: center;       
+            }
 
             form input{
                 height: 35px;
