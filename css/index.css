@@ -243,11 +243,15 @@ footer {
   }
 }
 footer .main-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 5%;
 }
 @media (max-width: 500px) {
   footer .main-footer {
     display: flex;
+    align-items: unset;
     flex-direction: column;
   }
 }
@@ -309,9 +313,6 @@ footer .copyright p {
 }
 .container .jumbo-container {
   position: relative;
-}
-.container .jumbo-container .jumbotron-img-home {
-  content: url("img/home/home-jumbotron.png");
 }
 .container .jumbo-container .jumbotron-text {
   font-weight: bold;
@@ -507,4 +508,36 @@ footer .copyright p {
     left: unset;
     bottom: 50%;
   }
+}
+.container .services-content {
+  width: 800px;
+  margin: 0 auto;
+}
+.container .services-content .tabs-links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+.container .services-content .tabs-links .tab-link {
+  width: 21%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.container .services-content .tab-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.container .services-content .tab-content .tab-item-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container .services-content p {
+  margin: 5% 0;
 }
