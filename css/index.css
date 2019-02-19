@@ -310,6 +310,9 @@ footer .copyright p {
 .container .jumbo-container {
   position: relative;
 }
+.container .jumbo-container .jumbotron-img-home {
+  content: url("img/home/home-jumbotron.png");
+}
 .container .jumbo-container .jumbotron-text {
   font-weight: bold;
   font-size: 6.4rem;
