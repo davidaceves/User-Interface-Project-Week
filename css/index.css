@@ -475,6 +475,7 @@ footer .copyright p {
 }
 .container .big-content-section .h2-recent-projects {
   margin: 5% 0;
+  margin-left: 7%;
 }
 @media (max-width: 500px) {
   .container .big-content-section .h2-recent-projects {
