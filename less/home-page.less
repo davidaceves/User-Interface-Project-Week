@@ -3,6 +3,22 @@
     .jumbo-container {
         position: relative;
 
+        .jumbo-img-home {
+            
+            @media @mobile {
+                display: none;
+            }
+        }
+
+        .jumbo-img-home-mobile {
+            display: none;
+
+            @media @mobile {
+                display: unset;
+                width: 100%;
+            }
+        }
+
         .jumbotron-text {
             font-weight: bold;
             font-size: 6.4rem;
@@ -13,9 +29,9 @@
             left: 10%;
 
             @media @mobile {
-                font-size: 4rem;
-                line-height: 50px;
-                top: 35%;
+                font-size: 5rem;
+                line-height: 60px;
+                top: 40%;
                 left: 5%;
             }
         }
@@ -30,9 +46,20 @@
             flex-direction: column;
         }
 
-        img {
+        .img-blueprint, .img-futuristic {
+
             @media @mobile {
+                display: none;
+            }
+        }
+
+        .img-mobile {
+            display: none;
+
+            @media @mobile {
+                display: unset;
                 margin-bottom: 5%;
+                width: 80%;
             }
         }
 
@@ -48,13 +75,17 @@
 
 
             @media @mobile {
-                width: 100%;
+                width: 80%;
                 align-items: center;
             }
 
             p {
                 width: 85%;
                 margin-top: 10px;
+
+                @media @mobile {
+                    width: 100%;
+                }
             }
 
             button {
@@ -88,6 +119,22 @@
 
     .big-content-section {
 
+        .img-villas, .img-outskirts, .img-blocks {
+
+            @media @mobile {
+                display: none;
+            }
+        }
+
+        .img-mobile {
+            display: none;
+
+            @media @mobile {
+                display: unset;
+                width: 80%;
+            }
+        }
+
         .h2-recent-projects {
             margin: 5% 0;
 
@@ -105,10 +152,8 @@
             border: 1px solid white;
 
             @media @mobile {
-                width: 90%;
-                height: 100px;
-                left: unset;
-                bottom: 65%;
+                width: 75%;
+                height: 100px;    
             }
 
         }
@@ -149,7 +194,7 @@
 
             @media @mobile {
                 left: unset;
-                bottom: 50%;
+                bottom: 53%;
             }
         }
     }
@@ -163,7 +208,7 @@
 
             @media @mobile {
                 left: unset;
-                bottom: 50%;
+                bottom: 53%;
             }
         }
     }
@@ -177,7 +222,7 @@
 
             @media @mobile {
                 left: unset;
-                bottom: 50%;
+                bottom: 53%;
             }
         }
     }

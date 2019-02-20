@@ -314,6 +314,20 @@ footer .copyright p {
 .container .jumbo-container {
   position: relative;
 }
+@media (max-width: 500px) {
+  .container .jumbo-container .jumbo-img-home {
+    display: none;
+  }
+}
+.container .jumbo-container .jumbo-img-home-mobile {
+  display: none;
+}
+@media (max-width: 500px) {
+  .container .jumbo-container .jumbo-img-home-mobile {
+    display: unset;
+    width: 100%;
+  }
+}
 .container .jumbo-container .jumbotron-text {
   font-weight: bold;
   font-size: 6.4rem;
@@ -325,9 +339,9 @@ footer .copyright p {
 }
 @media (max-width: 500px) {
   .container .jumbo-container .jumbotron-text {
-    font-size: 4rem;
-    line-height: 50px;
-    top: 35%;
+    font-size: 5rem;
+    line-height: 60px;
+    top: 40%;
     left: 5%;
   }
 }
@@ -346,9 +360,23 @@ footer .copyright p {
   }
 }
 @media (max-width: 500px) {
-  .container .small-content-1 img,
-  .container .small-content-2 img {
+  .container .small-content-1 .img-blueprint,
+  .container .small-content-2 .img-blueprint,
+  .container .small-content-1 .img-futuristic,
+  .container .small-content-2 .img-futuristic {
+    display: none;
+  }
+}
+.container .small-content-1 .img-mobile,
+.container .small-content-2 .img-mobile {
+  display: none;
+}
+@media (max-width: 500px) {
+  .container .small-content-1 .img-mobile,
+  .container .small-content-2 .img-mobile {
+    display: unset;
     margin-bottom: 5%;
+    width: 80%;
   }
 }
 .container .small-content-1 .box-1,
@@ -372,7 +400,7 @@ footer .copyright p {
   .container .small-content-2 .box-1,
   .container .small-content-1 .box-2,
   .container .small-content-2 .box-2 {
-    width: 100%;
+    width: 80%;
     align-items: center;
   }
 }
@@ -382,6 +410,14 @@ footer .copyright p {
 .container .small-content-2 .box-2 p {
   width: 85%;
   margin-top: 10px;
+}
+@media (max-width: 500px) {
+  .container .small-content-1 .box-1 p,
+  .container .small-content-2 .box-1 p,
+  .container .small-content-1 .box-2 p,
+  .container .small-content-2 .box-2 p {
+    width: 100%;
+  }
 }
 .container .small-content-1 .box-1 button,
 .container .small-content-2 .box-1 button,
@@ -421,6 +457,22 @@ footer .copyright p {
     padding-left: 0;
   }
 }
+@media (max-width: 500px) {
+  .container .big-content-section .img-villas,
+  .container .big-content-section .img-outskirts,
+  .container .big-content-section .img-blocks {
+    display: none;
+  }
+}
+.container .big-content-section .img-mobile {
+  display: none;
+}
+@media (max-width: 500px) {
+  .container .big-content-section .img-mobile {
+    display: unset;
+    width: 80%;
+  }
+}
 .container .big-content-section .h2-recent-projects {
   margin: 5% 0;
 }
@@ -441,10 +493,8 @@ footer .copyright p {
 }
 @media (max-width: 500px) {
   .container .big-content-section .h2-graybox {
-    width: 90%;
+    width: 75%;
     height: 100px;
-    left: unset;
-    bottom: 65%;
   }
 }
 .container .big-content-section .big-content-1,
@@ -484,7 +534,7 @@ footer .copyright p {
 @media (max-width: 500px) {
   .container .big-content-1 .h2-graybox {
     left: unset;
-    bottom: 50%;
+    bottom: 53%;
   }
 }
 .container .big-content-2 .h2-graybox {
@@ -495,7 +545,7 @@ footer .copyright p {
 @media (max-width: 500px) {
   .container .big-content-2 .h2-graybox {
     left: unset;
-    bottom: 50%;
+    bottom: 53%;
   }
 }
 .container .big-content-3 .h2-graybox {
@@ -506,7 +556,7 @@ footer .copyright p {
 @media (max-width: 500px) {
   .container .big-content-3 .h2-graybox {
     left: unset;
-    bottom: 50%;
+    bottom: 53%;
   }
 }
 .container .services-content {
