@@ -540,6 +540,7 @@ footer .copyright p {
 .container .services-content .tab-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 5%;
 }
 .container .services-content .tab-content .tab-item-title.title-selected {
@@ -554,11 +555,9 @@ footer .copyright p {
   display: inline;
 }
 .container .services-content .tab-content .tab-item-img {
-  width: 45%;
-  height: auto;
   display: none;
 }
 .container .services-content p {
-  width: 90%;
+  width: 95%;
   margin: 5% 0;
 }
