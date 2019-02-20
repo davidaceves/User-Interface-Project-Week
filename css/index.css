@@ -615,3 +615,59 @@ footer .copyright p {
   width: 95%;
   margin: 5% 0;
 }
+.container .main-content-contact {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5% 0;
+}
+.container .main-content-contact .contact-form .get-in-touch {
+  margin-bottom: 5%;
+}
+.container .main-content-contact .contact-form .email-subtext {
+  font-size: 1.2rem;
+}
+.container .main-content-contact .contact-form .email input,
+.container .main-content-contact .contact-form select {
+  width: 100%;
+  height: 35px;
+  padding-left: 5px;
+  border-radius: 3px;
+}
+.container .main-content-contact .contact-form select,
+.container .main-content-contact .contact-form .email-subtext,
+.container .main-content-contact .contact-form textarea {
+  margin-bottom: 5%;
+}
+.container .main-content-contact .contact-form .radio {
+  font-size: 1.6rem;
+}
+.container .main-content-contact .contact-form button {
+  margin-top: 5%;
+  width: 35%;
+  height: 40px;
+  background-color: #FFFFFF;
+  color: #222222;
+  border: 1px solid #222222;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+.container .main-content-contact .work-locations .where-we-work {
+  margin-bottom: 10%;
+}
+.container .main-content-contact .work-locations .florida,
+.container .main-content-contact .work-locations .newyork,
+.container .main-content-contact .work-locations .cali {
+  padding-bottom: 20%;
+}
+.container .main-content-contact .work-locations .florida h3,
+.container .main-content-contact .work-locations .newyork h3,
+.container .main-content-contact .work-locations .cali h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container .main-content-contact .work-locations .florida p,
+.container .main-content-contact .work-locations .newyork p,
+.container .main-content-contact .work-locations .cali p {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
