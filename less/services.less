@@ -10,15 +10,25 @@
             font-size: 2rem;
             font-weight: bold;
             margin-bottom: 5%;
+
+            .tab.link-selected {
+                background: @tab-select-bg;
+                color: @tab-select-color;
+            }
             
-            .tab-link {
+            .tab {
                 width: 21%;
-                height: 40px;
+                height: 45px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 border: 1px solid black;
                 cursor: pointer;
+
+                &:hover {
+                    background: @grayblack;
+                    color: @tab-hover-color;
+                }
             }
         }
 
@@ -27,13 +37,30 @@
             justify-content: space-between;
             margin-bottom: 5%;
 
+            .tab-item-title.title-selected {
+                display: inline;
+            }
+
             .tab-item-title {
                 font-size: 2rem;
                 font-weight: bold;
+                display: none;
+
+            }
+
+            .tab-item-img.img-selected {
+                display: inline;
+            }
+
+            .tab-item-img {
+                width: 45%;
+                height: auto;
+                display: none;
             }
         }
 
         p {
+            width: 90%;
             margin: 5% 0;
         }
     }
