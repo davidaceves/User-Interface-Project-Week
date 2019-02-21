@@ -621,6 +621,7 @@ footer .copyright p {
   margin: 5% 0;
 }
 .container .main-content-contact .contact-form .get-in-touch {
+  font-size: 2rem;
   margin-bottom: 5%;
 }
 .container .main-content-contact .contact-form .email-subtext {
@@ -652,6 +653,7 @@ footer .copyright p {
   font-size: 1.6rem;
 }
 .container .main-content-contact .work-locations .where-we-work {
+  font-size: 2rem;
   margin-bottom: 10%;
 }
 .container .main-content-contact .work-locations .florida,
@@ -664,10 +666,11 @@ footer .copyright p {
 .container .main-content-contact .work-locations .cali h3 {
   font-size: 2rem;
   font-weight: bold;
+  margin-bottom: 8%;
 }
 .container .main-content-contact .work-locations .florida p,
 .container .main-content-contact .work-locations .newyork p,
 .container .main-content-contact .work-locations .cali p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: normal;
 }

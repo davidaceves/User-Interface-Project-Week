@@ -40,8 +40,6 @@ class TabLink {
 
       this.tabTitle = new TabTitle(this.itemElement);
       this.tabImg = new TabImg(this.itemImg);
-
-      console.log(this.tabTitle);
     
       this.tabElement.addEventListener('click', () => {
         this.selectTab();
