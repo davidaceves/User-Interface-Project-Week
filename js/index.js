@@ -13,15 +13,18 @@ let logo = document.querySelector('.logo');
 hamburger.addEventListener('click', () => {
     if (!navBar.classList.contains('nav-toggle')) {
         navBar.classList.add('nav-toggle');
+        TweenMax.to(navBar, .75, {className: '+=active'});
         navCon.style.display = 'unset';
         hamburger.style.display = 'none';
         hamburgerClose.style.display = 'unset';
+        
     } 
 });
 
 hamburgerClose.addEventListener('click', () => {
     if (navBar.classList.contains('nav-toggle')) {
         navBar.classList.remove('nav-toggle');
+        TweenMax.to(navBar, .75, {className: '-=active'});
         navCon.style.display = 'none';
         hamburger.style.display = 'unset';
         hamburgerClose.style.display = 'none';

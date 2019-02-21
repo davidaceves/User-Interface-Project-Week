@@ -222,8 +222,10 @@ a {
 .nav-bar nav a:hover {
   color: #222222;
 }
-.nav-toggle {
+.active {
   height: 100%;
+}
+.nav-toggle {
   max-width: 1000px;
   width: 100%;
   opacity: 0.5;
