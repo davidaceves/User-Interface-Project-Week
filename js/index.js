@@ -16,8 +16,7 @@ hamburger.addEventListener('click', () => {
         TweenMax.to(navBar, .75, {className: '+=active'});
         navCon.style.display = 'unset';
         hamburger.style.display = 'none';
-        hamburgerClose.style.display = 'unset';
-        
+        hamburgerClose.style.display = 'unset';  
     } 
 });
 
