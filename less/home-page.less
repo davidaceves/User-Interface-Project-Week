@@ -1,0 +1,231 @@
+.container {
+
+    .jumbo-container {
+        position: relative;
+
+        .jumbo-img-home {
+            
+            @media @mobile {
+                display: none;
+            }
+        }
+
+        .jumbo-img-home-mobile {
+            display: none;
+
+            @media @mobile {
+                display: unset;
+                width: 100%;
+            }
+        }
+
+        .jumbotron-text {
+            font-weight: bold;
+            font-size: 6.4rem;
+            line-height: 75px;
+            color: @jumbo-color;
+            position: absolute;
+            top: 50%;
+            left: 10%;
+
+            @media @mobile {
+                font-size: 5rem;
+                line-height: 60px;
+                top: 40%;
+                left: 5%;
+            }
+        }
+    }
+
+    .small-content-1, .small-content-2 {
+        .center();
+        margin-top: 40px;
+
+        @media @mobile {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .img-blueprint, .img-futuristic {
+
+            @media @mobile {
+                display: none;
+            }
+        }
+
+        .img-mobile {
+            display: none;
+
+            @media @mobile {
+                display: unset;
+                margin-bottom: 5%;
+                width: 80%;
+            }
+        }
+
+        .box-1, .box-2 {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+    
+            @media @mobile {
+                order: 1;
+            }
+
+
+            @media @mobile {
+                width: 80%;
+                align-items: center;
+            }
+
+            p {
+                width: 85%;
+                margin-top: 10px;
+
+                @media @mobile {
+                    width: 100%;
+                }
+            }
+
+            button {
+                .button-creator(35%, 40px, @button-bg, @font-color, 1.6rem);
+                margin-top: 10px;
+
+                @media @mobile {
+                    width: 87%;
+                    margin: 5% 0;
+                }
+            }
+        }
+    }
+
+    .small-content-2 {
+        flex-direction: row-reverse;
+
+        @media @mobile {
+            flex-direction: column;
+        }
+
+        .box-2 {
+            padding-left: 8.5%;
+
+            @media @mobile {
+                padding-left: 0;
+            }
+        }
+
+    }
+
+    .big-content-section {
+
+        .img-villas, .img-outskirts, .img-blocks {
+
+            @media @mobile {
+                display: none;
+            }
+        }
+
+        .img-mobile {
+            display: none;
+
+            @media @mobile {
+                display: unset;
+                width: 80%;
+            }
+        }
+
+        .h2-recent-projects {
+            margin: 5% 0;
+            margin-left: 7%;
+
+            @media @mobile {
+                margin-left: 5%;
+            }
+        }
+
+        .h2-graybox {
+            .center();
+            font-weight: normal;
+            width: 30%;
+            height: 70px;
+            background: @box-background;
+            border: 1px solid white;
+
+            @media @mobile {
+                width: 75%;
+                height: 100px;    
+            }
+
+        }
+
+        .big-content-1, .big-content-2, .big-content-3 {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .p-content {
+            .center();
+            flex-direction: column;
+            margin: 5% 0;
+
+            @media @mobile {
+                margin-top: 20%;
+             }
+
+            p {
+                margin: 1% 0;
+                width: 40%;
+
+                @media @mobile {
+                   width: 85%;
+                }
+            }
+        }
+    }
+
+    .big-content-1 {
+
+        .h2-graybox {
+            position: absolute;
+            left: 62.7%;
+            bottom: 58%;
+
+            @media @mobile {
+                left: unset;
+                bottom: 53%;
+            }
+        }
+    }
+
+    .big-content-2 {
+
+        .h2-graybox {
+            position: absolute;
+            left: 7.2%;
+            bottom: 58%;
+
+            @media @mobile {
+                left: unset;
+                bottom: 53%;
+            }
+        }
+    }
+
+    .big-content-3 {
+
+        .h2-graybox {
+            position: absolute;
+            left: 62.7%;
+            bottom: 58%;
+
+            @media @mobile {
+                left: unset;
+                bottom: 53%;
+            }
+        }
+    }
+  
+}

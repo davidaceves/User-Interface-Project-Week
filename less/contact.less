@@ -1,0 +1,63 @@
+.container {
+    
+    .main-content-contact {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 5% 0;
+
+        .contact-form {
+            .get-in-touch {
+                font-size: 2rem;
+                margin-bottom: 5%;
+            }
+
+            .email-subtext {
+                font-size: 1.2rem;
+            }
+
+            .email input, select {
+                width: 100%;
+                height: 35px;
+                padding-left: 5px;
+                border-radius: 3px;
+            }
+
+            select, .email-subtext, textarea {
+                margin-bottom: 5%;
+            }
+            
+            .radio {
+                font-size: 1.6rem;
+            }
+    
+            button {
+                margin-top: 5%;
+                .button-creator(35%, 40px, @button-bg, @font-color, 1.6rem);
+            }
+        }
+
+        .work-locations {
+
+            .where-we-work {
+                font-size: 2rem;
+                margin-bottom: 10%;
+            }
+
+            .florida, .newyork, .cali {
+                padding-bottom: 20%;
+
+                h3 {
+                    font-size: 2rem;
+                    font-weight: bold;
+                    margin-bottom: 8%;
+                }
+                
+                p {
+                    font-size: 1.4rem;
+                    font-weight: normal;
+                }
+            }
+        }
+       
+    }
+}
